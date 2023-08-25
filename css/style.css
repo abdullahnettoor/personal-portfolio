@@ -8,6 +8,7 @@ body {
   position: relative;
 }
 
+
 body:before {
   content: "";
   position: absolute;
@@ -545,11 +546,10 @@ a, a:hover {
   z-index: 1009;
   height: 100vh;
   background: #fff;
-  width: 280px;
-  overflow: auto;
+  width: 100vw;
+  overflow: hidden;
   padding-top: 30px;
   padding-bottom: 70px;
-  width: 280px;
   left: 0;
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -570,6 +570,7 @@ a, a:hover {
 .unslate_co--site-mobile-menu .close-wrap {
   margin-right: 20px;
   position: relative;
+
 }
 
 .unslate_co--site-mobile-menu .close-wrap a {
@@ -2032,7 +2033,6 @@ span.error {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
   background: black;
 }
